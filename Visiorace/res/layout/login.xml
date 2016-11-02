@@ -75,6 +75,7 @@
                 android:layout_marginTop="10dip" >
 
                 <TextView
+                    android:id="@+id/forGetPass"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_centerVertical="true"
@@ -110,6 +111,12 @@
             android:layout_height="wrap_content"
             android:layout_centerVertical="true"
             android:src="@drawable/arrow" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:src="@drawable/logo" />
     </RelativeLayout>
 
 </RelativeLayout>

@@ -146,8 +146,8 @@
                         android:layout_width="fill_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="10dip"
-                        android:onClick="setRegister"
-                        android:background="@drawable/register" />
+                        android:background="@drawable/register"
+                        android:onClick="setRegister" />
                 </LinearLayout>
             </ScrollView>
         </LinearLayout>
@@ -164,6 +164,12 @@
             android:layout_height="wrap_content"
             android:layout_centerVertical="true"
             android:src="@drawable/arrow" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:src="@drawable/logo" />
     </RelativeLayout>
 
 </RelativeLayout>

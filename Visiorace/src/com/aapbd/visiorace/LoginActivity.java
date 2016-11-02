@@ -15,7 +15,7 @@ import android.widget.Toast;
 import com.aapbd.visiorace.utils.AlertMessage;
 
 public class LoginActivity extends Activity {
-	private TextView register;
+	private TextView register, forgetPass;
 	private EditText userName, passWord;
 	private Context con;
 	private String muserName, mpassWord;
@@ -27,6 +27,7 @@ public class LoginActivity extends Activity {
 		setContentView(R.layout.login);
 		con = this;
 		register = (TextView) findViewById(R.id.Register);
+		forgetPass = (TextView) findViewById(R.id.forGetPass);
 		userName = (EditText) findViewById(R.id.Username);
 		passWord = (EditText) findViewById(R.id.Password);
 
@@ -36,6 +37,16 @@ public class LoginActivity extends Activity {
 			public void onClick(View v) {
 				// TODO Auto-generated method stub
 				Intent next = new Intent(con, RegisterActivity.class);
+				startActivity(next);
+			}
+		});
+
+		forgetPass.setOnClickListener(new OnClickListener() {
+
+			@Override
+			public void onClick(View v) {
+				// TODO Auto-generated method stub
+				Intent next = new Intent(con, ForgerpasswordActivity.class);
 				startActivity(next);
 			}
 		});
@@ -58,7 +69,9 @@ public class LoginActivity extends Activity {
 			AlertMessage.showMessage(con, "Error", "Please Enter Password");
 			return;
 		} else {
-			Toast.makeText(con, "Will have Action", 1000).show();
+			// Toast.makeText(con, "Will have Action", 1000).show();
+			Intent next = new Intent(con, SingleEventActivity.class);
+			startActivity(next);
 		}
 	}
 

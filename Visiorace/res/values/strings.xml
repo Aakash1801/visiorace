@@ -1,5 +1,5 @@
 <resources>
 
     <string name="app_name">Visiorace</string>
-
+<string name="forgettext">Inserisci il tuo nome utente o il tuo indirizzo email.\nRiceverai tramite email un link per creare una\nuova password.</string>
 </resources>
