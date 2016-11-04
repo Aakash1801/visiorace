@@ -2,6 +2,7 @@ package com.aapbd.visiorace;
 
 import android.app.Activity;
 import android.content.Context;
+import android.content.Intent;
 import android.os.Bundle;
 import android.text.TextUtils;
 import android.view.View;
@@ -79,7 +80,8 @@ public class RegisterActivity extends Activity {
 			AlertMessage.showMessage(con, "Error", "Please Enter Password");
 			return;
 		} else {
-			Toast.makeText(con, "Will have Action", 1000).show();
+			Intent next = new Intent(con, SingleEventActivity.class);
+			startActivity(next);
 		}
 	}
 

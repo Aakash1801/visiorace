@@ -70,7 +70,7 @@ public class LoginActivity extends Activity {
 			return;
 		} else {
 			// Toast.makeText(con, "Will have Action", 1000).show();
-			Intent next = new Intent(con, SingleEventActivity.class);
+			Intent next = new Intent(con, SearchEngineEventsActivity.class);
 			startActivity(next);
 		}
 	}

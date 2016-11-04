@@ -8,6 +8,9 @@
 package com.aapbd.visiorace;
 
 public final class R {
+    public static final class array {
+        public static final int spinnerarray=0x7f050000;
+    }
     public static final class attr {
     }
     public static final class drawable {
@@ -20,53 +23,61 @@ public final class R {
         public static final int category=0x7f020006;
         public static final int custom_ratingbar_selector=0x7f020007;
         public static final int date=0x7f020008;
-        public static final int distance=0x7f020009;
-        public static final int edittext=0x7f02000a;
-        public static final int edittextcomment=0x7f02000b;
-        public static final int email=0x7f02000c;
-        public static final int ic_launcher=0x7f02000d;
-        public static final int logo=0x7f02000e;
-        public static final int okbutton=0x7f02000f;
-        public static final int ratingicon=0x7f020010;
-        public static final int register=0x7f020011;
-        public static final int sitoevento=0x7f020012;
-        public static final int staricon=0x7f020013;
-        public static final int staricondeselect=0x7f020014;
-        public static final int stariconselect=0x7f020015;
-        public static final int telephone=0x7f020016;
+        public static final int directionback=0x7f020009;
+        public static final int directionnext=0x7f02000a;
+        public static final int distance=0x7f02000b;
+        public static final int editbox=0x7f02000c;
+        public static final int edittext=0x7f02000d;
+        public static final int edittextcomment=0x7f02000e;
+        public static final int email=0x7f02000f;
+        public static final int ic_launcher=0x7f020010;
+        public static final int logo=0x7f020011;
+        public static final int logowhite=0x7f020012;
+        public static final int okbutton=0x7f020013;
+        public static final int picture=0x7f020014;
+        public static final int ratingicon=0x7f020015;
+        public static final int register=0x7f020016;
+        public static final int search=0x7f020017;
+        public static final int sitoevento=0x7f020018;
+        public static final int spinner=0x7f020019;
+        public static final int spinner2=0x7f02001a;
+        public static final int staricon=0x7f02001b;
+        public static final int staricondeselect=0x7f02001c;
+        public static final int stariconselect=0x7f02001d;
+        public static final int telephone=0x7f02001e;
     }
     public static final class id {
-        public static final int Categoria=0x7f060013;
-        public static final int Cognome=0x7f060009;
-        public static final int Comments=0x7f060011;
-        public static final int Data=0x7f060015;
-        public static final int Date=0x7f060016;
-        public static final int DateDi=0x7f06000b;
-        public static final int Distanza=0x7f060017;
-        public static final int Distanzatext=0x7f060018;
-        public static final int Email=0x7f06000c;
-        public static final int EmailOrganizzatore=0x7f06001b;
-        public static final int ForgetPassword=0x7f060002;
-        public static final int Nome=0x7f060008;
-        public static final int OkButton=0x7f060007;
-        public static final int Password=0x7f060005;
-        public static final int Poddismo=0x7f060014;
-        public static final int Register=0x7f060003;
-        public static final int Sesso=0x7f06000a;
-        public static final int ShareInvite=0x7f060012;
-        public static final int SitoEvento=0x7f060019;
-        public static final int TelefonoOrganizzatore=0x7f06001d;
-        public static final int Telephone=0x7f06001e;
-        public static final int Username=0x7f060004;
-        public static final int album_icon=0x7f060000;
-        public static final int bottomLayout=0x7f06000e;
-        public static final int camera=0x7f060010;
-        public static final int camera_icon=0x7f060001;
-        public static final int email=0x7f06001c;
-        public static final int forGetPass=0x7f060006;
-        public static final int starIcon=0x7f06000f;
-        public static final int topLayout=0x7f06000d;
-        public static final int website=0x7f06001a;
+        public static final int Categoria=0x7f070013;
+        public static final int Cognome=0x7f070009;
+        public static final int Comments=0x7f070011;
+        public static final int Data=0x7f070015;
+        public static final int Date=0x7f070016;
+        public static final int DateDi=0x7f07000b;
+        public static final int Distanza=0x7f070017;
+        public static final int Distanzatext=0x7f070018;
+        public static final int Email=0x7f07000c;
+        public static final int EmailOrganizzatore=0x7f07001b;
+        public static final int ForgetPassword=0x7f070002;
+        public static final int Nome=0x7f070008;
+        public static final int OkButton=0x7f070007;
+        public static final int Password=0x7f070005;
+        public static final int Poddismo=0x7f070014;
+        public static final int Register=0x7f070003;
+        public static final int Sesso=0x7f07000a;
+        public static final int ShareInvite=0x7f070012;
+        public static final int SitoEvento=0x7f070019;
+        public static final int TelefonoOrganizzatore=0x7f07001d;
+        public static final int Telephone=0x7f07001e;
+        public static final int Username=0x7f070004;
+        public static final int album_icon=0x7f070000;
+        public static final int bottomLayout=0x7f07000e;
+        public static final int camera=0x7f070010;
+        public static final int camera_icon=0x7f070001;
+        public static final int email=0x7f07001c;
+        public static final int forGetPass=0x7f070006;
+        public static final int starIcon=0x7f07000f;
+        public static final int topLayout=0x7f07000d;
+        public static final int website=0x7f07001a;
     }
     public static final class layout {
         public static final int cameradialog=0x7f030000;
@@ -74,7 +85,8 @@ public final class R {
         public static final int login=0x7f030002;
         public static final int ratingdialog=0x7f030003;
         public static final int register=0x7f030004;
-        public static final int singleeventview=0x7f030005;
+        public static final int searchengineevents=0x7f030005;
+        public static final int singleeventview=0x7f030006;
     }
     public static final class string {
         public static final int app_name=0x7f040000;
@@ -102,10 +114,11 @@ public final class R {
     
  API 14 theme customizations can go here. 
          */
-        public static final int AppBaseTheme=0x7f050000;
+        public static final int AppBaseTheme=0x7f060000;
         /**  Application theme. 
  All customizations that are NOT specific to a particular API-level can go here. 
          */
-        public static final int AppTheme=0x7f050001;
+        public static final int AppTheme=0x7f060001;
+        public static final int CustomRatingBar=0x7f060002;
     }
 }

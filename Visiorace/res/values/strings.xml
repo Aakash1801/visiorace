@@ -2,4 +2,14 @@
 
     <string name="app_name">Visiorace</string>
 <string name="forgettext">Inserisci il tuo nome utente o il tuo indirizzo email.\nRiceverai tramite email un link per creare una\nuova password.</string>
+<string-array name="spinnerarray">
+    <item >Anno</item>
+    <item >2016</item>
+    <item >2015</item>
+    <item >2014</item>
+    <item >2013</item>
+    <item >2012</item>
+    <item >2011</item>
+    <item >2010</item>
+</string-array>
 </resources>
